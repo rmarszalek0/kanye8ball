@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "TSTAR";
+  src: url("/TSTAR-PRO-Bold.otf");
+}
+body {
+  font-family: "TSTAR";
+  background-color: #D3CABA;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 7vh;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  align-items: center;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+
+input {
+  width: 100%;
+  height: 4vh;
+}
+
+.send {
+  margin-top: 3vh;
+  width: 20%;
+}
+
+.answer-container {
+  margin-top: 10vh;
+  background-color: aliceblue;
+  min-height: 40vh;
+  width: 40vh;
+  font-size: x-large;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
